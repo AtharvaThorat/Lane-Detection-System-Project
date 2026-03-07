@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simultaneous Video Playback</title>
+<style>
+
+table, th, td {
+
+  table-layout: fixed;
+}
+
+
+  video {
+
+   width: calc(100%); /* Three videos in a row */
+ 
+  }
+</style>
+</head>
+<body>
+<h1  Align="center"> Lane Detection Output</h1>
+<table style="width:100%">
+
+  <tr>
+    <td Align="center">Input Video 1</td>
+    <td Align="center">Input Video 2</td>
+    <td Align="center">Input Video 3</td>
+  </tr>
+
+  <tr>
+    <td>  <video loop autoplay muted>
+    <source src="Input_video_1.mp4" type="video/mp4">
+  </video></td>
+    <td>  <video loop autoplay muted>
+    <source src="Input_video_2.mp4" type="video/mp4">
+  </video></td>
+    <td>  <video loop autoplay muted>
+    <source src="Input_video_3.mp4" type="video/mp4">
+  </video></td>
+  </tr>
+  
+  <tr>
+    <td Align="center">Output Video 1</td>
+    <td Align="center">Output Video 2</td>
+    <td Align="center">Output Video 3</td>
+  </tr>
+  
+  <tr>
+    <td>  <video loop autoplay muted>
+    <source src="Output_video_1.mp4" type="video/mp4">
+  </video></td>
+    <td><video loop autoplay muted>
+    <source src="Output_video_2.mp4" type="video/mp4">
+  </video></td>
+    <td><video loop autoplay muted>
+    <source src="Output_video_3.mp4" type="video/mp4">
+  </video></td>
+  </tr>
+  
+</table>
+
+
+
+
+
+</body>
+</html>
